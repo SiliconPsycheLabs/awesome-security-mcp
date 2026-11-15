@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🤖 Awesome MCP
+# 🛡️ Awesome Security MCP
 
-**A curated, visual awesome list of Model Context Protocol (MCP) servers, clients and security best practices — deeply researched and reviewed by senior experts.**
+![Awesome Security MCP banner](assets/banner.svg)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-mcp?style=social)](https://github.com/okanyildiz/awesome-mcp/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-mcp?style=social)](https://github.com/okanyildiz/awesome-security-mcp/stargazers)
 
 **🔌 Official Servers • 🌐 Community Servers • 🛡️ Security MCP • 💻 Clients & Hosts • 🔐 Best Practices**
 
@@ -20,7 +20,6 @@
 
 ## 📑 Contents
 
-- [What is MCP?](#what-is-mcp)
 - [Official MCP Servers](#official-mcp-servers)
 - [Popular MCP Servers](#popular-mcp-servers)
 - [Security-Specific MCP Servers](#security-specific-mcp-servers)
@@ -30,13 +29,6 @@
 - [Contributing](#contributing)
 
 ---
-
-## What is MCP?
-
-The [Model Context Protocol](https://modelcontextprotocol.io) is an open standard (introduced by Anthropic) for connecting AI assistants to external tools, data sources and services through a common interface. An **MCP server** exposes tools/resources/prompts; an **MCP client** (a host application such as an IDE or chat app) consumes them over stdio or HTTP transports.
-
-- 📘 [Specification](https://modelcontextprotocol.io/specification)
-- 🏛️ [Governance & community](https://github.com/modelcontextprotocol)
 
 ---
 

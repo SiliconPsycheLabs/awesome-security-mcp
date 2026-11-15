@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Awesome Security MCP banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#12294a"/>
+      <stop offset="100%" stop-color="#0d3b4f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb6ff"/>
+      <stop offset="100%" stop-color="#7af5c9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#3fb6ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3fb6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <g opacity="0.08" stroke="#7af5c9" stroke-width="1">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200"/>
+    <path d="M100 0 V300 M250 0 V300 M400 0 V300 M550 0 V300 M700 0 V300 M850 0 V300 M1000 0 V300"/>
+  </g>
+  <g transform="translate(940,60)">
+    <circle cx="100" cy="90" r="86" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.9"/>
+    <circle cx="100" cy="90" r="64" fill="none" stroke="#3fb6ff" stroke-width="1.5" opacity="0.5"/>
+    <path d="M100 42 L143 63 V99 C143 127 122 146 100 155 C78 146 57 127 57 99 V63 Z" fill="#12294a" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M100 70 L121 81 V99 C121 113 111 124 100 130 C89 124 79 113 79 99 V81 Z" fill="url(#accent)" opacity="0.85"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="60" y="120" fill="#7af5c9" font-size="26" font-weight="600" letter-spacing="6">AWESOME</text>
+    <text x="60" y="180" fill="#ffffff" font-size="58" font-weight="800" letter-spacing="2">SECURITY MCP</text>
+    <text x="62" y="222" fill="#9db4d6" font-size="21" font-weight="400">Curated Model Context Protocol servers, clients &amp; security best practices</text>
+    <rect x="60" y="248" width="330" height="3" fill="url(#accent)"/>
+    <text x="60" y="276" fill="#3fb6ff" font-size="15" font-weight="500" letter-spacing="3">RESEARCHED · REVIEWED · VERIFIED</text>
+  </g>
+</svg>
