@@ -1,13 +1,13 @@
 <div align="center">
 
-# 🛡️ Awesome Security MCP
+# Awesome Security MCP
 
 ![Awesome Security MCP banner](assets/banner.svg)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-mcp?style=social)](https://github.com/okanyildiz/awesome-security-mcp/stargazers)
 
 **🔌 Official Servers • 🌐 Community Servers • 🛡️ Security MCP • 💻 Clients & Hosts • 🔐 Best Practices**
@@ -36,8 +36,6 @@
 
 Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository.
 
-Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository. The current list has **seven active reference servers** (educational references, not production products):
-
 - :star: [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference/test server demonstrating prompts, resources and tools.
 - :star: [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetches web content and converts it for efficient LLM consumption.
 - :star: [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - File operations restricted through configurable access controls.
@@ -48,7 +46,7 @@ Servers maintained in the [modelcontextprotocol/servers](https://github.com/mode
 
 **Archived reference servers** (in [servers-archived](https://github.com/modelcontextprotocol/servers-archived); no security updates or guarantees): GitHub, GitLab, PostgreSQL, SQLite, Puppeteer, Brave Search, Google Maps — see each vendor's maintained replacement in Popular MCP Servers below.
 
-[🔝 Back to top](#-awesome-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -56,7 +54,7 @@ Servers maintained in the [modelcontextprotocol/servers](https://github.com/mode
 
 Widely-used community and vendor MCP servers.
 
-**Development, browser and local-system tools**
+### Development, browser and local-system tools
 
 - :star: [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub server for repos, code, issues, PRs, Actions, security alerts and workflows; selectable toolsets and read-only controls.
 - :star: [GitLab MCP Server](https://docs.gitlab.com/user/model_context_protocol/mcp_server/) - GitLab-hosted access to projects, repositories, issues and merge requests.
@@ -73,7 +71,7 @@ Widely-used community and vendor MCP servers.
 - :star: [Docker MCP Gateway](https://github.com/docker/mcp-gateway) - Docker's gateway and CLI for running and connecting catalogued MCP servers.
 - [docker-mcp](https://github.com/QuantGeekDev/docker-mcp) - Independent Docker operations MCP server; avoid exposing an unrestricted Docker socket.
 
-**Cloud and infrastructure**
+### Cloud and infrastructure
 
 - :star: [AWS MCP Servers](https://github.com/awslabs/mcp) - AWS Labs' collection of service-specific servers for AWS documentation, APIs, infrastructure and operations.
 - :star: [Microsoft MCP catalog](https://github.com/microsoft/mcp) - Includes the Azure MCP Server and other Microsoft implementations for Azure resource and data operations.
@@ -82,14 +80,14 @@ Widely-used community and vendor MCP servers.
 - [Vercel MCP](https://vercel.com/docs/agent-resources/vercel-mcp) - OAuth-enabled access to Vercel projects, deployments, logs, analytics and documentation (hosted).
 - :star: [Supabase MCP](https://github.com/supabase/mcp) - Supabase project, database, development and debugging tools; prefer read-only, project-scoped operation.
 
-**Observability**
+### Observability
 
 - :star: [Grafana MCP](https://github.com/grafana/mcp-grafana) - Searches dashboards and queries Grafana, Prometheus, Loki, alerting and related observability data.
 - [Prometheus MCP Server](https://github.com/pab1it0/prometheus-mcp-server) - Executes and analyzes Prometheus/PromQL metric queries.
 - [Sentry Toolkit / MCP](https://github.com/getsentry/toolkit) - Sentry issue, event, trace, release and debugging tools for coding agents.
 - [Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch) - Queries Elasticsearch indices and ES|QL; critical fixes only — use the Elastic Agent Builder MCP endpoint for Elastic 9.2+.
 
-**Databases**
+### Databases
 
 - [Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp) - Configurable PostgreSQL access with schema, health and performance-analysis tools.
 - [MySQL MCP Server](https://github.com/designcomputer/mysql_mcp_server) - MySQL schema inspection and SQL interaction.
@@ -97,7 +95,7 @@ Widely-used community and vendor MCP servers.
 - :star: [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server) - Connects agents to MongoDB databases and MongoDB Atlas clusters.
 - :star: [Redis MCP](https://github.com/redis/mcp-redis) - Redis data management and search through natural-language agent workflows.
 
-**Collaboration, productivity, identity and commerce**
+### Collaboration, productivity, identity and commerce
 
 - [Slack MCP Server](https://docs.slack.dev/ai/slack-mcp-server) - Searches Slack, retrieves and sends messages, manages canvases and users, and uploads files (hosted).
 - [Teams MCP](https://github.com/floriscornel/teams-mcp) - Microsoft Teams and Graph API messaging, search and user operations (community, not Microsoft-maintained).
@@ -116,7 +114,7 @@ Widely-used community and vendor MCP servers.
 - [Shopify MCP options](https://shopify.dev/docs/apps/build/storefront-mcp/index) - Storefront/customer commerce MCP capabilities and a Dev MCP server for developer documentation and API assistance.
 - [Shopify MCP](https://github.com/GeLi2001/shopify-mcp) - Independent Shopify Admin API integration; distinct from Shopify's developer and storefront servers.
 
-[🔝 Back to top](#-awesome-security-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -124,7 +122,7 @@ Widely-used community and vendor MCP servers.
 
 MCP servers for security operations, forensics, OSINT, threat intelligence and penetration testing.
 
-**Reconnaissance, OSINT, vulnerability testing and reverse engineering**
+### Reconnaissance, OSINT, vulnerability testing and reverse engineering
 
 - [Nmap MCP Server](https://github.com/imjdl/nmap-mcpserver) - Exposes Nmap network-scanning functionality through MCP (community).
 - [Wireshark MCP](https://github.com/khuynh22/mcp-wireshark) - Uses Wireshark/tshark for live capture, PCAP parsing, display filters, stream following and JSON export.
@@ -147,7 +145,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) - Ghidra plugin and MCP bridge for reverse engineering, decompilation, symbols and program inspection.
 - :star: [radare2-mcp](https://github.com/radareorg/radare2-mcp) - Radare2 organization's native stdio server for disassembly and binary analysis.
 
-**SIEM, detection, threat intelligence and DFIR**
+### SIEM, detection, threat intelligence and DFIR
 
 - :star: [Splunk MCP Server](https://splunkbase.splunk.com/app/7931) - Splunk's supported app for SPL execution/generation and Splunk data exploration ([CiscoDevNet repository](https://github.com/CiscoDevNet/Splunk-MCP-Server-official)).
 - [Microsoft Sentinel MCP](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-mcp-get-started) - Microsoft-hosted security tool collections for Sentinel data exploration, hunting, graph analysis and triage; availability varies by collection.
@@ -167,7 +165,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - [Arkime MCP](https://github.com/lflare/arkime-mcp) - Arkime session and network-investigation access.
 - [Malcolm MCP Server](https://github.com/nagameTW/mcp-server-malcolm) - Queries Malcolm's Zeek, Suricata, Arkime and NetBox data, read-only unless writes are explicitly enabled.
 
-**Multi-tool security projects**
+### Multi-tool security projects
 
 - [OSINT MCP Server](https://github.com/badchars/osint-mcp-server) - Multi-source OSINT covering Shodan, VirusTotal, Censys, SecurityTrails, DNS, WHOIS, certificate transparency and BGP.
 - [Kali Linux MCP images](https://github.com/vxcontrol/kali-linux-image/tree/master/mcp) - Containerized MCP wrappers for Nmap, Metasploit, Nuclei, SQLMap, Hydra, John and Hashcat.
@@ -176,7 +174,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 
 *Not verified for the main list:* a dedicated Cuckoo Sandbox MCP and Sardarmani/SnortMCP (no README/adoption evidence) — candidates only. No first-party implementations verified for Nmap, Wireshark, Metasploit, Shodan, SecurityTrails, AbuseIPDB, OpenCTI, Wazuh, TheHive, Nessus, Nuclei, SQLMap, Hydra, John, Hashcat, Ghidra, Zeek, Suricata, Snort or Arkime; community implementations are linked above.
 
-[🔝 Back to top](#-awesome-security-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -196,7 +194,7 @@ Applications that consume MCP servers.
 - [mcp-cli (PyPI)](https://pypi.org/project/mcp-cli/) - Interactive/command-line MCP testing; canonical source repository should be re-verified.
 - [Kimi Code](https://www.kimi.com/code/docs/en/kimi-code-cli/customization/mcp.html) - Supports stdio, Streamable HTTP and legacy HTTP+SSE, OAuth, project/user configuration, workspace trust and tool allow/block lists.
 
-[🔝 Back to top](#-awesome-security-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -217,7 +215,7 @@ Primary references: [MCP Security Best Practices](https://modelcontextprotocol.i
 11. **Log without creating another secret store.** Record actor, server, tool, arguments, result status and timestamp, while redacting credentials and sensitive content. Monitor new tools, definition changes, unusual call frequency and cross-server data flows.
 12. **Warn about submissions and samples.** VirusTotal and similar services may share submitted files or URLs with partners or the security community. A hash lookup is not permission to upload the underlying file; require explicit authorization for submissions involving internal code, documents, personal data or credentials.
 
-[🔝 Back to top](#-awesome-security-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -232,7 +230,7 @@ Primary references: [MCP Security Best Practices](https://modelcontextprotocol.i
 - 📚 [Punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Large community list of MCP servers and clients.
 - 📚 [MCP.so](https://mcp.so) - MCP server directory and ecosystem hub.
 
-[🔝 Back to top](#-awesome-security-mcp)
+[🔝 Back to top](#awesome-security-mcp)
 
 ---
 
@@ -241,3 +239,5 @@ Primary references: [MCP Security Best Practices](https://modelcontextprotocol.i
 See [CONTRIBUTING.md](CONTRIBUTING.md). One server per PR, verified links, honest descriptions, alphabetical order.
 
 **License:** [MIT](LICENSE) © 2026 Okan YILDIZ
+
+[🔝 Back to top](#awesome-security-mcp)
