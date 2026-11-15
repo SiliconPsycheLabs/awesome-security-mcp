@@ -1,16 +1,16 @@
 <div align="center">
 
-# 🔐 Awesome Cybersecurity
+# 🤖 Awesome MCP
 
-**A curated, visual awesome list of MCP servers, OSINT, forensics, pentest and general cybersecurity tools — deeply researched and reviewed by senior experts.**
+**A curated, visual awesome list of Model Context Protocol (MCP) servers, clients and security best practices — deeply researched and reviewed by senior experts.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-cybersecurity?style=social)](https://github.com/okanyildiz/awesome-cybersecurity/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-mcp?style=social)](https://github.com/okanyildiz/awesome-mcp/stargazers)
 
-**🤖 MCP Servers • 🕵️ OSINT • 🔬 Forensics • 🎯 Pentest • 🛡️ Defense • 📚 Learning**
+**🔌 Official Servers • 🌐 Community Servers • 🛡️ Security MCP • 💻 Clients & Hosts • 🔐 Best Practices**
 
 *Accuracy over coverage. Every entry is verified by reviewers before merging.*
 
@@ -20,118 +20,84 @@
 
 ## 📑 Contents
 
-- [🤖 Model Context Protocol (MCP)](#-model-context-protocol-mcp)
-  - [Official MCP Servers](#official-mcp-servers)
-  - [Popular MCP Servers](#popular-mcp-servers)
-  - [Security-Specific MCP Servers](#security-specific-mcp-servers)
-  - [MCP Clients & Hosts](#mcp-clients--hosts)
-  - [MCP Security Best Practices](#mcp-security-best-practices)
-- [🕵️ OSINT](#️-osint)
-- [🔬 Forensics](#-forensics)
-- [🎯 Penetration Testing](#-penetration-testing)
-- [🛡️ Defense & Detection](#️-defense--detection)
-- [🔐 Password Attacks](#-password-attacks)
-- [📡 Wireless & Mobile](#-wireless--mobile)
-- [🧬 Reverse Engineering & Malware Analysis](#-reverse-engineering--malware-analysis)
-- [📚 Learning & Labs](#-learning--labs)
+- [What is MCP?](#what-is-mcp)
+- [Official MCP Servers](#official-mcp-servers)
+- [Popular MCP Servers](#popular-mcp-servers)
+- [Security-Specific MCP Servers](#security-specific-mcp-servers)
+- [MCP Clients & Hosts](#mcp-clients--hosts)
+- [MCP Security Best Practices](#mcp-security-best-practices)
+- [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 
 ---
 
-## 🤖 Model Context Protocol (MCP)
+## What is MCP?
 
-The [Model Context Protocol](https://modelcontextprotocol.io) is an open standard for connecting AI assistants to external tools and data sources. This section catalogs the servers worth knowing.
+The [Model Context Protocol](https://modelcontextprotocol.io) is an open standard (introduced by Anthropic) for connecting AI assistants to external tools, data sources and services through a common interface. An **MCP server** exposes tools/resources/prompts; an **MCP client** (a host application such as an IDE or chat app) consumes them over stdio or HTTP transports.
 
-### Official MCP Servers
+- 📘 [Specification](https://modelcontextprotocol.io/specification)
+- 🏛️ [Governance & community](https://github.com/modelcontextprotocol)
+
+---
+
+## Official MCP Servers
+
+Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository.
 
 *Content being researched — entries are added after verification.*
 
-### Popular MCP Servers
-
-*Content being researched.*
-
-### Security-Specific MCP Servers
-
-*Content being researched.*
-
-### MCP Clients & Hosts
-
-*Content being researched.*
-
-### MCP Security Best Practices
-
-*Content being researched.*
-
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
-## 🕵️ OSINT
+## Popular MCP Servers
+
+Widely-used community and vendor MCP servers.
 
 *Content being researched.*
 
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
-## 🔬 Forensics
+## Security-Specific MCP Servers
+
+MCP servers for security operations, forensics, OSINT, threat intelligence and penetration testing.
 
 *Content being researched.*
 
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
-## 🎯 Penetration Testing
+## MCP Clients & Hosts
+
+Applications that consume MCP servers.
 
 *Content being researched.*
 
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
-## 🛡️ Defense & Detection
+## MCP Security Best Practices
 
 *Content being researched.*
 
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
-## 🔐 Password Attacks
+## Learning Resources
 
 *Content being researched.*
 
-[🔝 Back to top](#-awesome-cybersecurity)
-
----
-
-## 📡 Wireless & Mobile
-
-*Content being researched.*
-
-[🔝 Back to top](#-awesome-cybersecurity)
-
----
-
-## 🧬 Reverse Engineering & Malware Analysis
-
-*Content being researched.*
-
-[🔝 Back to top](#-awesome-cybersecurity)
-
----
-
-## 📚 Learning & Labs
-
-*Content being researched.*
-
-[🔝 Back to top](#-awesome-cybersecurity)
+[🔝 Back to top](#-awesome-mcp)
 
 ---
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). One tool per PR, verified links, honest descriptions, alphabetical order.
+See [CONTRIBUTING.md](CONTRIBUTING.md). One server per PR, verified links, honest descriptions, alphabetical order.
 
 **License:** [MIT](LICENSE) © 2026 Okan YILDIZ
