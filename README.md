@@ -131,8 +131,8 @@ Widely-used community and vendor MCP servers.
 
 ### Collaboration, productivity, identity and commerce
 
-- :star: [Airtable MCP](https://www.airtable.com/developers/agents/mcp/getting-started) - Official remote server for base schemas, records, analysis and automations, with read-only/read-write controls.
 - :star: [Airbyte MCP](https://docs.airbyte.com/platform/airbyte-mcp) - Official hosted access to an Airbyte organization, connectors, replication and context-layer data.
+- :star: [Airtable MCP](https://www.airtable.com/developers/agents/mcp/getting-started) - Official remote server for base schemas, records, analysis and automations, with read-only/read-write controls.
 - :star: [Auth0 MCP](https://github.com/auth0/auth0-mcp-server) - Official Auth0 Management API integration for applications, Actions, logs and tenant administration.
 - :star: [HubSpot Remote MCP](https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server) - Generally available hosted server for securely reading and writing HubSpot CRM data.
 - :star: [PayPal Agent Toolkit](https://github.com/paypal/agent-toolkit) - PayPal-maintained agent/MCP access to PayPal APIs.
