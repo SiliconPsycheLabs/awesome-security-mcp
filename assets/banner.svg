@@ -31,6 +31,6 @@
     <text x="60" y="180" fill="#ffffff" font-size="58" font-weight="800" letter-spacing="2">SECURITY MCP</text>
     <text x="62" y="222" fill="#9db4d6" font-size="21" font-weight="400">Curated Model Context Protocol servers, clients &amp; security best practices</text>
     <rect x="60" y="248" width="330" height="3" fill="url(#accent)"/>
-    <text x="60" y="276" fill="#3fb6ff" font-size="15" font-weight="500" letter-spacing="3">RESEARCHED · REVIEWED · VERIFIED</text>
+    <text x="60" y="276" fill="#3fb6ff" font-size="15" font-weight="500" letter-spacing="3">CURATED · ACCURATE · MAINTAINED</text>
   </g>
 </svg>
