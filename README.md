@@ -234,16 +234,23 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - [Tengu](https://github.com/rfunix/tengu) - Pentest MCP server integrating numerous tools including Nmap, Metasploit, SQLMap, Nuclei and Hydra.
 - [Threat Intel Toolkit](https://github.com/scottycwilsono/threat-intel-toolkit) - Combines AbuseIPDB, VirusTotal and Shodan IP-enrichment workflows.
 
-- :star: [Kiro](https://kiro.dev/docs/mcp/configuration/) - MCP configuration across Kiro IDE, CLI and web clients.
-- :star: [OpenAI Codex](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) - Codex support for consuming external MCP servers.
-- :star: [OpenCode](https://opencode.ai/docs/mcp-servers/) - Local and remote MCP support, including tools, prompts and resources.
+## MCP Clients & Hosts
+
 Applications that consume MCP servers.
 
+- :star: [ChatGPT](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) - Custom MCP connectors with workspace permission controls.
+- :star: [Claude Code](https://code.claude.com/docs/en/mcp) - Local and remote MCP support in Anthropic's coding agent.
 - :star: [Claude Desktop / Claude connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) - Supports remote MCP connectors and local desktop server configurations.
 - :star: [Cline](https://docs.cline.bot/mcp/mcp-overview) - VS Code coding agent with custom MCP server and marketplace support.
+- :star: [Continue](https://docs.continue.dev/customize/mcp-tools) - Open-source VS Code/JetBrains agents with MCP tool configuration.
 - :star: [Cursor](https://cursor.com/docs/mcp) - Built-in MCP support for local and remote servers through project/user configuration and marketplace integrations.
+- :star: [Gemini CLI](https://geminicli.com/docs/tools/mcp-server/) - Local and remote MCP configuration in Google's CLI agent.
+- :star: [goose](https://goose-docs.ai/) - Open-source MCP-native desktop/CLI agent, governed by the Agentic AI Foundation at the Linux Foundation (originally from Block).
 - [Kimi Code](https://www.kimi.com/code/docs/en/kimi-code-cli/customization/mcp.html) - Supports stdio, Streamable HTTP and legacy HTTP+SSE, OAuth, project/user configuration, workspace trust and tool allow/block lists.
+- :star: [Kiro](https://kiro.dev/docs/mcp/configuration/) - MCP configuration across Kiro IDE, CLI and web clients.
 - [LibreChat](https://www.librechat.ai/docs/features/mcp) - Self-hosted chat/agent platform with configurable MCP servers, OAuth support and access controls.
+- :star: [OpenAI Codex](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) - Codex support for consuming external MCP servers.
+- :star: [OpenCode](https://opencode.ai/docs/mcp-servers/) - Local and remote MCP support, including tools, prompts and resources.
 - :star: [Roo Code](https://roocodeinc.github.io/Roo-Code/features/mcp/using-mcp-in-roo/) - VS Code agent supporting configured MCP servers and granular auto-approval settings.
 - :star: [VS Code Copilot](https://code.visualstudio.com/docs/agent-customization/mcp-servers) - Adds MCP tools and data to Copilot agent workflows, with server management and enterprise controls.
 - [Windsurf Cascade](https://docs.devin.ai/windsurf/plugins/cascade/mcp) - Connects Cascade to local and remote MCP servers.
