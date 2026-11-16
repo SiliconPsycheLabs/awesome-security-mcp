@@ -220,7 +220,7 @@ Widely-used community and vendor MCP servers.
 - [Microsoft MCP Server for Enterprise](https://learn.microsoft.com/en-us/graph/mcp-server/get-started) - Delegated, read-only Microsoft Graph access covering Entra users, groups, roles, directory data and security incidents.
 - :zzz: [Notion MCP Server (local)](https://github.com/makenotion/notion-mcp-server) - Local Notion server; no longer actively maintained or supported.
 - :star: [Okta MCP Server](https://github.com/okta/okta-mcp-server) - Okta-maintained self-hosted server for identity administration through Okta APIs.
-- :star: [Remote Notion MCP](https://developers.notion.com/guides/mcp/get-started-with-mcp) - Actively maintained hosted Notion MCP for workspace search, page/database access and editing (endpoint: `https://mcp.notion.com/mcp`).
+- :star: [Remote Notion MCP](https://developers.notion.com/guides/mcp/get-started-with-mcp) - Actively maintained hosted Notion MCP for workspace search, page/database access and editing (hosted endpoint; see the guide for connection details).
 - [Shopify Customer Accounts MCP](https://shopify.dev/docs/agents) - Customer Accounts MCP with UCP Catalog/Cart/Checkout/Order/Ask capabilities; Storefront MCP has a migration notice to UCP. Developer documentation/API assistance belongs under [Shopify AI Toolkit](https://shopify.dev/docs/apps/build/ai-toolkit).
 - [Shopify MCP](https://github.com/GeLi2001/shopify-mcp) - Independent Shopify Admin API integration; distinct from Shopify's developer and storefront servers.
 - [Slack MCP Server](https://docs.slack.dev/ai/slack-mcp-server) - Searches Slack, retrieves and sends messages, manages canvases and users, and uploads files (hosted).
