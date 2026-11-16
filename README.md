@@ -20,29 +20,13 @@
 
 ## 📑 Contents
 
-- [Contributing](#contributing)
-- [Learning Resources](#learning-resources)
-- [MCP Clients & Hosts](#mcp-clients--hosts)
-- [MCP Security Best Practices](#mcp-security-best-practices)
+- [Security-Specific MCP Servers](#security-specific-mcp-servers)
 - [Official MCP Servers](#official-mcp-servers)
 - [Popular MCP Servers](#popular-mcp-servers)
-- [Security-Specific MCP Servers](#security-specific-mcp-servers)
----
-
-## Official MCP Servers
-
-Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository.
-
-- :star: [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference/test server demonstrating prompts, resources and tools.
-- :star: [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetches web content and converts it for efficient LLM consumption.
-- :star: [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - File operations restricted through configurable access controls.
-- :star: [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Reads, searches and manipulates Git repositories.
-- :star: [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Knowledge-graph-based persistent memory.
-- :star: [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Dynamic, reflective problem-solving through structured thought sequences.
-- :star: [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion tools.
-**Archived reference servers** (in [servers-archived](https://github.com/modelcontextprotocol/servers-archived); no security updates or guarantees) include GitHub, GitLab, PostgreSQL, SQLite, Puppeteer, Brave Search and Google Maps. Vendor-maintained alternatives are listed where they exist below; community alternatives such as Postgres MCP Pro and Stacklok SQLite are not database-vendor replacements.
-
-[🔝 Back to top](#awesome-security-mcp)
+- [MCP Clients & Hosts](#mcp-clients--hosts)
+- [MCP Security Best Practices](#mcp-security-best-practices)
+- [Learning Resources](#learning-resources)
+- [Contributing](#contributing)
 
 ---
 
@@ -192,6 +176,23 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - [OSINT MCP Server](https://github.com/badchars/osint-mcp-server) - Multi-source OSINT covering Shodan, VirusTotal, Censys, SecurityTrails, DNS, WHOIS, certificate transparency and BGP.
 - [Tengu](https://github.com/rfunix/tengu) - Pentest MCP server integrating numerous tools including Nmap, Metasploit, SQLMap, Nuclei and Hydra.
 - [Threat Intel Toolkit](https://github.com/scottycwilsono/threat-intel-toolkit) - Combines AbuseIPDB, VirusTotal and Shodan IP-enrichment workflows.
+[🔝 Back to top](#awesome-security-mcp)
+
+---
+
+## Official MCP Servers
+
+Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository.
+
+- :star: [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - Reference/test server demonstrating prompts, resources and tools.
+- :star: [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Fetches web content and converts it for efficient LLM consumption.
+- :star: [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - File operations restricted through configurable access controls.
+- :star: [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Reads, searches and manipulates Git repositories.
+- :star: [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Knowledge-graph-based persistent memory.
+- :star: [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Dynamic, reflective problem-solving through structured thought sequences.
+- :star: [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion tools.
+**Archived reference servers** (in [servers-archived](https://github.com/modelcontextprotocol/servers-archived); no security updates or guarantees) include GitHub, GitLab, PostgreSQL, SQLite, Puppeteer, Brave Search and Google Maps. Vendor-maintained alternatives are listed where they exist below; community alternatives such as Postgres MCP Pro and Stacklok SQLite are not database-vendor replacements.
+
 [🔝 Back to top](#awesome-security-mcp)
 
 ---
