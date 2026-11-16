@@ -18,6 +18,18 @@
 
 ---
 
+## 📑 Contents
+
+- [Official MCP Servers](#official-mcp-servers)
+- [Security-Specific MCP Servers](#security-specific-mcp-servers)
+- [Popular MCP Servers](#popular-mcp-servers)
+- [MCP Clients & Hosts](#mcp-clients--hosts)
+- [MCP Security Best Practices](#mcp-security-best-practices)
+- [Learning Resources](#learning-resources)
+- [Contributing](#contributing)
+
+---
+
 ## Official MCP Servers
 
 Servers maintained in the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repository.
@@ -119,13 +131,13 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :star: [MCP ZAP Server](https://github.com/dtkmn/mcp-zap-server) - Streamable HTTP ZAP operator for guided spidering, active/passive scans, API imports, findings and reports, with authentication and target policies (independent of OWASP/ZAP).
 - [mcp-ffuf](https://github.com/samcsta/mcp-ffuf) - Dedicated stdio server for path, parameter and vhost fuzzing, with mandatory host scope and request/rate limits.
 - [Mythic MCP](https://github.com/nbaertsch/Mythic-MCP) - Go MCP server exposing 147 Mythic C2 tools over stdio or HTTP, including callbacks, tasks, payloads, listeners and files.
-- :star: [NetExec MCP](https://github.com/mpgn/NetExec-mcp) - Drives all ten NetExec protocols and modules, with fail-closed NXC_SCOPE, suggest/recon/loot/full modes and audit logging (community project by mpgn, not the Pennyw0rth organization).
+- :new: [NetExec MCP](https://github.com/mpgn/NetExec-mcp) - Drives all ten NetExec protocols and modules, with fail-closed NXC_SCOPE, suggest/recon/loot/full modes and audit logging (community project by mpgn, not the Pennyw0rth organization).
 - :zzz: [Nikto MCP](https://github.com/weldpua2008/nikto-mcp) - TypeScript stdio server for Nikto scans, status and cancellation, locally or through Docker (dormant since August 2025).
-- :star: [Pentest MCP](https://github.com/DMontgomery40/pentest-mcp) - Scoped assessment server for Nmap, Gobuster, Nikto, Subfinder, HTTPX, FFUF, Nuclei, Hydra, John and Hashcat, with durable evidence, time/target gates and authenticated HTTP.
+- :star: [Pentest MCP (DMontgomery40)](https://github.com/DMontgomery40/pentest-mcp) - Scoped assessment server for Nmap, Gobuster, Nikto, Subfinder, HTTPX, FFUF, Nuclei, Hydra, John and Hashcat, with durable evidence, time/target gates and authenticated HTTP.
 - [PenTest OSINT MCP Server](https://github.com/Hackerobi/pentest-osint-mcp-server) - Dockerized MCP server combining 25+ OSINT tools, including Recon-ng, Amass, WhatWeb and h8mail with LeakCheck support (experimental).
 - :star: [Pentest-AI](https://github.com/0xSteph/pentest-ai) - FastMCP server for AI-driven web testing and bug bounty workflows; separates oracle-verified findings from unproven candidates and provides replayable proof capsules.
 - [Pentester-MCP](https://github.com/halilkirazkaya/pentester-mcp) - Unified FastMCP server with 235 generated wrappers (Recon-ng, Dirsearch, Naabu, Certipy, Impacket, Responder, mitm6 and Arachni); broad but early, not every wrapper is battle-tested.
-- [PentestMCP](https://github.com/YoussefSahnoun/PentestMCP) - Active Directory stdio server covering NetExec, BloodHound collection/analysis, Certipy, Nmap and John (initial version, not a complete autonomous AD compromise tool).
+- [PentestMCP (YoussefSahnoun)](https://github.com/YoussefSahnoun/PentestMCP) - Active Directory stdio server covering NetExec, BloodHound collection/analysis, Certipy, Nmap and John (initial version, not a complete autonomous AD compromise tool).
 - :zzz: [ProjectDiscovery MCP](https://github.com/intelligent-ears/pd-tools-mcp) - Stdio wrappers for Subfinder, DNSX, Naabu, HTTPX, Katana and Nuclei, plus an orchestrated recon workflow (community, not ProjectDiscovery-official).
 - :star: [Sliver native MCP](https://github.com/BishopFox/sliver/blob/master/docs/sliver-docs/pages/docs/md/MCP.md) - Bishop Fox's native stdio and HTTP/SSE server for listing sessions/beacons and remote filesystem operations (experimental, not full C2 coverage).
 - [sliver-mcp](https://github.com/x746b/sliver-mcp) - Community complement to native Sliver MCP with roughly 74 tools for execution, listeners, implants, armory, recon and intel (no audit log, allowlist or read-only mode).
@@ -136,7 +148,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 ### SIEM, detection, threat intelligence and DFIR
 
 - [Chainsaw MCP](https://github.com/jasonmull/ChainsawMCP) - Runs Chainsaw Windows event-log hunting against supplied evidence for AI-assisted triage (community, early).
-- :star: [Mecha Hayabusa](https://github.com/Yamato-Security/mecha-hayabusa) - Loads Hayabusa results for natural-language querying, DFIR timelines, event drill-down, IOC extraction and reports (official Yamato Security).
+- :new: [Mecha Hayabusa](https://github.com/Yamato-Security/mecha-hayabusa) - Loads Hayabusa results for natural-language querying, DFIR timelines, event drill-down, IOC extraction and reports (official Yamato Security).
 - :star: [Security Onion MCP](https://github.com/Security-Onion-Solutions/securityonion-mcp) - Backend MCP server for querying and working with Security Onion data through its authenticated API (official).
 
 - [BitSight MCP](https://github.com/TheSkeenAdvantage/mcp-bitisght) - BitSight company search, ratings, findings, details and monitored portfolios (community, early; `bitisght` typo is in the actual repo name).
@@ -149,7 +161,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :star: [FalconFeeds MCP](https://github.com/Technisanct/falconfeeds-mcp) - IOCs, CVEs, TTPs, threat actors, threat feeds and feed imagery (official).
 - [Graylog MCP](https://github.com/jperelli/graylog-mcp) - Multi-instance Graylog search and analysis through a stdio MCP server (community).
 - [Humio MCP](https://github.com/weihong-xu-hpe/humio-mcp) - Executes LogScale/Humio searches and retrieves dashboards across configured clusters (community).
-- :star: [IBM QRadar MCP](https://github.com/IBM/qradar-mcp) - Curated QRadar tools for offenses, AQL, reference data, assets, analytics, configuration and vulnerability data (official IBM).
+- :new: [IBM QRadar MCP](https://github.com/IBM/qradar-mcp) - Curated QRadar tools for offenses, AQL, reference data, assets, analytics, configuration and vulnerability data (official IBM).
 - [Logz.io MCP Server](https://github.com/jklnr/logzio-mcp-server) - Open-source Logz.io log-management integration (community; official hosted option also exists).
 - [SecurityScorecard MCP](https://github.com/CallMarcus/security-scorecard-mcp) - SecurityScorecard issue triage, asset discovery, email-security checks and score analysis (community, explicitly unaffiliated).
 - [Securonix multi-SIEM MCP](https://github.com/JoaquinHernandez/soc-siem-mcp-) - Cross-SIEM hunting across Securonix, QRadar, Sentinel, Splunk and Wazuh (community, early).
@@ -190,15 +202,16 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 
 ### Multi-tool security projects
 
-- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - 817 structured cybersecurity skills for AI agents, mapped to six frameworks including MITRE ATT&CK (skills library, not an MCP server).
-- [Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT) - Eight Claude skills for external recon (100+ recon capabilities, secret-regex patterns, dorks, read-only credential validators); a Claude skills pack, not an MCP server.
-- [hackingtool-plugin](https://github.com/AKCodez/hackingtool-plugin) - Claude Code plugin wrapping 183+ pentesting and OSINT tools from Z4nzu/hackingtool (plugin/skill wrapper, not an MCP server).
 
 
 - [Kali Linux MCP images](https://github.com/vxcontrol/kali-linux-image/tree/master/mcp) - Containerized MCP wrappers for Nmap, Metasploit, Nuclei, SQLMap and Hashcat; Hydra and John are deliberately not included.
 - [OSINT MCP Server](https://github.com/badchars/osint-mcp-server) - Multi-source OSINT covering Shodan, VirusTotal, Censys, SecurityTrails, DNS, WHOIS, certificate transparency and BGP.
 - [Tengu](https://github.com/rfunix/tengu) - Pentest MCP server integrating numerous tools including Nmap, Metasploit, SQLMap, Nuclei and Hydra.
 - [Threat Intel Toolkit](https://github.com/scottycwilsono/threat-intel-toolkit) - Combines AbuseIPDB, VirusTotal and Shodan IP-enrichment workflows.
+
+[🔝 Back to top](#awesome-security-mcp)
+
+---
 
 ## Popular MCP Servers
 
@@ -383,6 +396,13 @@ Primary references: [MCP Security Best Practices](https://modelcontextprotocol.i
 ---
 
 ## Learning Resources
+
+**AI security skills & agents (not MCP servers):**
+
+- [Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT) - Eight Claude skills for external recon (100+ recon capabilities, secret-regex patterns, dorks, read-only credential validators); a Claude skills pack, not an MCP server.
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - 817 structured cybersecurity skills for AI agents, mapped to six frameworks including MITRE ATT&CK (skills library, not an MCP server).
+- [hackingtool-plugin](https://github.com/AKCodez/hackingtool-plugin) - Claude Code plugin wrapping 183+ pentesting and OSINT tools from Z4nzu/hackingtool (plugin/skill wrapper, not an MCP server).
+
 
 - 📘 [MCP Specification](https://modelcontextprotocol.io/specification) - Protocol details, transports, authorization and security best practices.
 - 🧭 [MCP Governance & community](https://github.com/modelcontextprotocol) - Steering-group repositories and community discussions.
