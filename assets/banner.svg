@@ -33,4 +33,13 @@
     <rect x="60" y="248" width="330" height="3" fill="url(#accent)"/>
     <text x="60" y="276" fill="#3fb6ff" font-size="15" font-weight="500" letter-spacing="3">CURATED · ACCURATE · MAINTAINED</text>
   </g>
+  <g opacity="0.55">
+    <circle cx="880" cy="58" r="4" fill="#7af5c9"/>
+    <circle cx="1010" cy="42" r="3" fill="#3fb6ff"/>
+    <circle cx="1070" cy="86" r="4" fill="#7af5c9"/>
+    <circle cx="960" cy="196" r="3" fill="#3fb6ff"/>
+    <circle cx="1100" cy="170" r="4" fill="#7af5c9"/>
+    <circle cx="900" cy="238" r="3" fill="#3fb6ff"/>
+    <path d="M880 58 L940 86 M1010 42 L1068 84 M1070 86 L1098 168 M960 196 L1096 172 M900 238 L958 198" stroke="#3fb6ff" stroke-width="1" opacity="0.35"/>
+  </g>
 </svg>
