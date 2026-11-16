@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
-[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-security-mcp?style=social)](https://github.com/okanyildiz/awesome-security-mcp/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-security-mcp?style=social)](https://github.com/okanyildiz/awesome-security-mcp)
 
 **🔌 Official Servers • 🌐 Popular Servers • 🛡️ Security MCP • 💻 Clients & Hosts • 🔐 Best Practices**
 
@@ -42,6 +42,8 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 
 ### Reconnaissance, OSINT, vulnerability testing and reverse engineering
 
+- :new: [RedAmon](https://github.com/samugit83/redamon) - Self-hosted AI penetration-testing framework: attack-surface graphing, autonomous exploitation from a Kali sandbox with human approval gates, and auto-fix PRs; MCP both ways (plug in any MCP server as a tool, or drive RedAmon from Claude Code or your own agent).
+
 - [GreyNoise MCP](https://github.com/GreyNoise-Intelligence/greynoise-mcp-server) - Vendor-maintained IP context, GNQL search and threat-intelligence investigation (small adoption so far).
 - :star: [Semgrep MCP](https://github.com/semgrep/semgrep) - Built into the maintained Semgrep CLI via `semgrep mcp`; lets coding agents run security scans directly.
 - :star: [Snyk MCP](https://github.com/snyk/studio-mcp) - Official `snyk mcp` integration for code, dependency, IaC, container, secret, SBOM and package-health scans.
@@ -71,6 +73,9 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 
 ### SIEM, detection, threat intelligence and DFIR
 
+- :star: [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) - Open-source OSINT agent: 21 public-source tools behind natural-language chat, with an MCP server.
+- :star: [World Intelligence MCP](https://github.com/marc-shade/world-intel-mcp) - 160-tool MCP server for real-time global intelligence from free public APIs, with a Qdrant vector store for semantic search.
+
 - :star: [Google Security Operations and Threat Intelligence MCP](https://github.com/google/mcp-security) - First-party servers for Google SecOps/Chronicle, SecOps SOAR, Google Threat Intelligence and Security Command Center.
 - :new: [MISP MCP](https://github.com/MISP/misp-mcp) - MISP-owned, read-only event, attribute, object, tag, taxonomy, galaxy and feed search (created April 2026, small adoption so far).
 - :star: [OpenCTI native MCP server](https://docs.opencti.io/latest/deployment/mcp-server/) - Official OpenCTI server through XTM One, available in Community Edition over Streamable HTTP, with read/write operations under the caller's permissions.
@@ -97,6 +102,11 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :zzz: [Zeek MCP](https://github.com/Gabbo01/Zeek-MCP) - Zeek network-security monitoring and log-analysis integration (last push May 2025).
 
 ### Multi-tool security projects
+
+- [Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT) - Eight Claude skills for external recon (100+ recon capabilities, secret-regex patterns, dorks, read-only credential validators); a Claude skills pack, not an MCP server.
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - 817 structured cybersecurity skills for AI agents, mapped to six frameworks including MITRE ATT&CK (skills library, not an MCP server).
+- [hackingtool-plugin](https://github.com/AKCodez/hackingtool-plugin) - Claude Code plugin wrapping 183+ pentesting and OSINT tools from Z4nzu/hackingtool (plugin/skill wrapper, not an MCP server).
+
 
 - [Kali Linux MCP images](https://github.com/vxcontrol/kali-linux-image/tree/master/mcp) - Containerized MCP wrappers for Nmap, Metasploit, Nuclei, SQLMap and Hashcat; Hydra and John are deliberately not included.
 - [OSINT MCP Server](https://github.com/badchars/osint-mcp-server) - Multi-source OSINT covering Shodan, VirusTotal, Censys, SecurityTrails, DNS, WHOIS, certificate transparency and BGP.
@@ -210,7 +220,7 @@ Widely-used community and vendor MCP servers.
 - [Microsoft MCP Server for Enterprise](https://learn.microsoft.com/en-us/graph/mcp-server/get-started) - Delegated, read-only Microsoft Graph access covering Entra users, groups, roles, directory data and security incidents.
 - :zzz: [Notion MCP Server (local)](https://github.com/makenotion/notion-mcp-server) - Local Notion server; no longer actively maintained or supported.
 - :star: [Okta MCP Server](https://github.com/okta/okta-mcp-server) - Okta-maintained self-hosted server for identity administration through Okta APIs.
-- :star: [Remote Notion MCP](https://mcp.notion.com/mcp) - Actively maintained hosted Notion MCP for workspace search, page/database access and editing.
+- :star: [Remote Notion MCP](https://developers.notion.com/guides/mcp/get-started-with-mcp) - Actively maintained hosted Notion MCP for workspace search, page/database access and editing (endpoint: `https://mcp.notion.com/mcp`).
 - [Shopify Customer Accounts MCP](https://shopify.dev/docs/agents) - Customer Accounts MCP with UCP Catalog/Cart/Checkout/Order/Ask capabilities; Storefront MCP has a migration notice to UCP. Developer documentation/API assistance belongs under [Shopify AI Toolkit](https://shopify.dev/docs/apps/build/ai-toolkit).
 - [Shopify MCP](https://github.com/GeLi2001/shopify-mcp) - Independent Shopify Admin API integration; distinct from Shopify's developer and storefront servers.
 - [Slack MCP Server](https://docs.slack.dev/ai/slack-mcp-server) - Searches Slack, retrieves and sends messages, manages canvases and users, and uploads files (hosted).
