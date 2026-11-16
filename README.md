@@ -42,6 +42,21 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 
 ### Reconnaissance, OSINT, vulnerability testing and reverse engineering
 
+- :star: [OSINT Toolbox MCP](https://github.com/renkagod/osint-toolbox-mcp) - Seventeen stdio tools wrapping Sherlock, Maigret, Blackbird, Holehe, GHunt, theHarvester, SpiderFoot, Subfinder, PhoneInfoga and others, plus built-in crt.sh and Wayback lookups (Docker and uvx).
+
+- :star: [Have I Been Pwned MCP](https://haveibeenpwned.com/Docs/MCP) - Official hosted server for breach metadata, account/domain exposure, pastes, stealer logs and k-anonymity password-range queries; OAuth and applicable subscriptions protect non-public data.
+- :star: [HIBP MCP Server](https://github.com/darrenjrobinson/HIBP-MCP-Server) - Local npm/stdio alternative for HIBP breach, paste and password queries.
+- :star: [ZoomEye MCP](https://github.com/zoomeye-ai/mcp_zoomeye) - Official stdio server for ZoomEye dork-based Internet-asset search, with caching, pagination, Docker and PyPI installation.
+- :new: [LeakIX MCP](https://github.com/LeakIX/leakix-mcp) - Official server exposing service/leak search, host and domain lookup, subdomains, quick recon, exposure reports and related-target discovery.
+- [Wayback Machine MCP](https://github.com/Mearman/mcp-wayback-machine) - MCP server and CLI for CDX searches, snapshot retrieval/saving and snapshot comparison.
+- [urlscan.io MCP](https://github.com/pipeworx-io/mcp-urlscan-io) - Search, result retrieval, domain/IP convenience queries and scan submission through a hosted MCP gateway or local stdio bridge (independent Pipeworx integration, not urlscan.io).
+- [DeHashed MCP](https://github.com/jstjep00/dehashed-mcp) - Seventeen FastMCP tools covering DeHashed searches, balance and pagination, with stdio/HTTP and policy-based authorization; handles sensitive breach and credential data.
+- [Intelligence X MCP](https://github.com/phat-lor/intelx-mcp) - Stdio server for IntelX intelligent/phonebook/identity searches, file preview/read and selector extraction (dormant since November 2025; includes leaked-credential export, scope carefully).
+- [Darknet MCP](https://github.com/badchars/darknet-mcp-server) - Sixty-six tools for breach, ransomware, Tor, malware-feed and blockchain intelligence, including HIBP and IntelX integrations; sensitive-data capabilities need clear warnings.
+- :zzz: [SpiderFoot MCP](https://github.com/marlinkcyber/spiderfoot-mcp) - FastMCP interface to a running SpiderFoot instance: start/stop/delete scans, status, results, modules, logs and exports (dormant since August 2025).
+- [Maltego MCP](https://github.com/lidless-labs/maltego-mcp) - Thirteen stdio tools for authoring Maltego .mtgx graphs and running WHOIS, DNS, ASN and crt.sh lookups; it writes Maltego graphs rather than remotely operating Maltego's commercial transform API.
+- :zzz: [OSINT Tools MCP Server](https://github.com/frishtik/osint-tools-mcp-server) - Python MCP server for Sherlock, Holehe, SpiderFoot, GHunt, Maigret, theHarvester and Blackbird (dormant single-day drop, August 2025).
+
 - :new: [RedAmon](https://github.com/samugit83/redamon) - Self-hosted AI penetration-testing framework: attack-surface graphing, autonomous exploitation from a Kali sandbox with human approval gates, and auto-fix PRs; MCP both ways (plug in any MCP server as a tool, or drive RedAmon from Claude Code or your own agent).
 
 - [GreyNoise MCP](https://github.com/GreyNoise-Intelligence/greynoise-mcp-server) - Vendor-maintained IP context, GNQL search and threat-intelligence investigation (small adoption so far).
@@ -70,6 +85,33 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :zzz: [SQLMap MCP](https://github.com/mohdhaji87/SQLMap-MCP) - Exposes SQLMap injection-testing and database-enumeration operations through FastMCP (last push August 2025).
 - :new: [VirusTotal MCP](https://github.com/VirusTotal/virustotal-mcp) - Retrieves file, URL, domain and IP intelligence and supports explicitly requested submissions through VTAI, locally or through hosted OAuth (created September 2026).
 - [Wireshark MCP](https://github.com/khuynh22/mcp-wireshark) - Uses Wireshark/tshark for live capture, PCAP parsing, display filters, stream following and JSON export.
+
+### Offensive security and penetration testing
+
+- :star: [NetExec MCP](https://github.com/mpgn/NetExec-mcp) - Drives all ten NetExec protocols and modules, with fail-closed NXC_SCOPE, suggest/recon/loot/full modes and audit logging (community project by mpgn, not the Pennyw0rth organization).
+- :star: [BloodHound MCP](https://github.com/mwnickerson/bloodhound_mcp) - Thirteen composite tools for BloodHound CE/Enterprise attack-path analysis, Cypher, ADCS, OpenGraph and collection uploads (community, not SpecterOps-maintained).
+- :star: [Sliver native MCP](https://github.com/BishopFox/sliver/blob/master/docs/sliver-docs/pages/docs/md/MCP.md) - Bishop Fox's native stdio and HTTP/SSE server for listing sessions/beacons and remote filesystem operations (experimental, not full C2 coverage).
+- [sliver-mcp](https://github.com/x746b/sliver-mcp) - Community complement to native Sliver MCP with roughly 74 tools for execution, listeners, implants, armory, recon and intel (no audit log, allowlist or read-only mode).
+- :star: [Cobalt Strike MCP Server](https://github.com/Cobalt-Strike/cobaltstrike-mcp-server) - Official HTTP MCP server for beacon listing, command execution, artifacts, downloads, screenshots and team-server information, with command allow/ask/deny policy (requires commercial Cobalt Strike 4.13+).
+- :star: [evil-winrm-py MCP mode](https://github.com/adityatelange/evil-winrm-py/blob/main/docs/usage.md#mcp-server-mode) - Native Streamable HTTP mode exposing WinRM login, command execution, logout and session listing (the Python implementation, not native MCP in the original Ruby Evil-WinRM).
+- :star: [MCP ZAP Server](https://github.com/dtkmn/mcp-zap-server) - Streamable HTTP ZAP operator for guided spidering, active/passive scans, API imports, findings and reports, with authentication and target policies (independent of OWASP/ZAP).
+- [Mythic MCP](https://github.com/nbaertsch/Mythic-MCP) - Go MCP server exposing 147 Mythic C2 tools over stdio or HTTP, including callbacks, tasks, payloads, listeners and files.
+- :star: [Wappalyzer MCP](https://github.com/wappalyzer/mcp) - Official local stdio server wrapping the Wappalyzer API: site and subdomain lookup, credit balance and technology/category resources (API key required).
+- :zzz: [Nikto MCP](https://github.com/weldpua2008/nikto-mcp) - TypeScript stdio server for Nikto scans, status and cancellation, locally or through Docker (dormant since August 2025).
+- [WPScan MCP Server](https://github.com/sjinks/wpscan-mcp-server) - Stdio server for the WPScan.com API: plugin, theme, WordPress-core and vulnerability lookups (queries the vulnerability API, does not execute the WPScan CLI against a site).
+- [mcp-ffuf](https://github.com/samcsta/mcp-ffuf) - Dedicated stdio server for path, parameter and vhost fuzzing, with mandatory host scope and request/rate limits.
+- [WhatWeb MCP](https://github.com/devkindhq/whatweb-mcp) - Dockerized stdio server for WhatWeb fingerprinting, scan status and stored results.
+- :zzz: [ProjectDiscovery MCP](https://github.com/intelligent-ears/pd-tools-mcp) - Stdio wrappers for Subfinder, DNSX, Naabu, HTTPX, Katana and Nuclei, plus an orchestrated recon workflow (community, not ProjectDiscovery-official).
+- :star: [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - FastMCP bridge to its HTTP security-tool API (150+ tools, including Amass, Subfinder, Masscan, RustScan, Gobuster, Dirsearch, Feroxbuster, FFUF, Nikto, WPScan, NetExec, Responder, Evil-WinRM and ZAP); performance claims are unvalidated marketing, but the MCP implementation is real.
+- :star: [Pentest MCP](https://github.com/DMontgomery40/pentest-mcp) - Scoped assessment server for Nmap, Gobuster, Nikto, Subfinder, HTTPX, FFUF, Nuclei, Hydra, John and Hashcat, with durable evidence, time/target gates and authenticated HTTP.
+- :star: [Pentest-AI](https://github.com/0xSteph/pentest-ai) - FastMCP server for AI-driven web testing and bug bounty workflows; separates oracle-verified findings from unproven candidates and provides replayable proof capsules.
+- [Bolt](https://github.com/CyberStrikeus/bolt) - MCP server/plugin aggregator with 33 tools, including Amass, Subfinder, crt.sh, Waybackurls, Masscan, RustScan, Gobuster, FFUF, WPScan and Impacket (AGPL).
+- [Pentester-MCP](https://github.com/halilkirazkaya/pentester-mcp) - Unified FastMCP server with 235 generated wrappers (Recon-ng, Dirsearch, Naabu, Certipy, Impacket, Responder, mitm6 and Arachni); broad but early, not every wrapper is battle-tested.
+- [PenTest OSINT MCP Server](https://github.com/Hackerobi/pentest-osint-mcp-server) - Dockerized MCP server combining 25+ OSINT tools, including Recon-ng, Amass, WhatWeb and h8mail with LeakCheck support (experimental).
+- [AutoPentest](https://github.com/bhavsec/autopentest-ai) - Agentic web-pentesting MCP server with 68+ tools, specialized agent roles and OWASP WSTG/PortSwigger workflow material.
+- [PentestMCP](https://github.com/YoussefSahnoun/PentestMCP) - Active Directory stdio server covering NetExec, BloodHound collection/analysis, Certipy, Nmap and John (initial version, not a complete autonomous AD compromise tool).
+- [Hacking Buddy MCP](https://github.com/ManuelBerrueta/hacking-buddy-mcp) - Small FastMCP proof of concept exposing a few offensive-security tools, including Nmap workflows (dormant PoC; unrelated to ipa-lab/hackingBuddyGPT).
+- :zzz: [MCP for Security](https://github.com/cyproxio/mcp-for-security) - Collection containing dedicated MCP source for Amass, crt.sh, FFUF, Masscan and WPScan (archived March 2026; historical/reference entry).
 
 ### SIEM, detection, threat intelligence and DFIR
 
