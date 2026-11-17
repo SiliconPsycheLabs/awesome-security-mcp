@@ -4,7 +4,6 @@
 
 <div align="center">
 
-![Awesome Security MCP banner](assets/banner.svg)
 
 A curated list of Model Context Protocol (MCP) servers, clients, and resources for cybersecurity.
 
