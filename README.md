@@ -1,5 +1,7 @@
 <a id="awesome-security-mcp"></a>
 
+<h1 align="center"><a href="https://modelcontextprotocol.io"><img src="assets/banner.svg" alt="Awesome Security MCP"></a></h1>
+
 <div align="center">
 
 ![Awesome Security MCP banner](assets/banner.svg)
@@ -7,7 +9,6 @@
 A curated list of Model Context Protocol (MCP) servers, clients, and resources for cybersecurity.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![GitHub stars](https://img.shields.io/github/stars/okanyildiz/awesome-security-mcp?style=social)](https://github.com/okanyildiz/awesome-security-mcp)
@@ -24,7 +25,7 @@ A curated list of Model Context Protocol (MCP) servers, clients, and resources f
 
 - [Security-Specific MCP Servers](#security-specific-mcp-servers)
 - [Official MCP Servers](#official-mcp-servers)
-- [Popular MCP Servers](#popular-mcp-servers)
+- [Security Platforms & Vendor MCP Servers](#security-platforms--vendor-mcp-servers)
 - [MCP Clients & Hosts](#mcp-clients--hosts)
 - [MCP Security Best Practices](#mcp-security-best-practices)
 - [Learning Resources](#learning-resources)
@@ -43,7 +44,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :new: [Acunetix MCP Server](https://github.com/McxM123/acunetix-mcp-server) - Manages targets, scans, vulnerabilities and reports through Acunetix/Invicti APIs (community).
 - :star: [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp) - Binary Ninja plugin, MCP server and bridge for decompilation, disassembly, cross-references, type manipulation and binary editing.
 - :new: [Burp AI Agent / Custom AI Agent](https://github.com/six2dez/burp-ai-agent) - Community Burp Suite extension, now named Custom AI Agent, with MCP access, scoped targets, approval tiers and AI-assisted scanning.
-- :new: [Burp Suite MCP Server](https://portswigger.net/bappstore/9952290f04ed4f628e624d0aa9dccebc) - PortSwigger's Burp extension for web application security testing connects AI clients to Burp through Streamable HTTP, legacy SSE or a stdio proxy, with approval controls ([source](https://github.com/PortSwigger/mcp-server)).
+- [Burp Suite MCP Server](https://portswigger.net/bappstore/9952290f04ed4f628e624d0aa9dccebc) - PortSwigger's Burp extension for web application security testing connects AI clients to Burp through Streamable HTTP, legacy SSE or a stdio proxy, with approval controls ([source](https://github.com/PortSwigger/mcp-server)).
 - [Censys Platform MCP](https://docs.censys.com/docs/platform-mcp-server) - Censys-hosted Internet Map search, asset investigation, CVE research, query generation and attack-surface analysis.
 - :new: [CVE MCP Server](https://github.com/mukul975/cve-mcp-server) - CVE research and triage across NVD, EPSS, CISA KEV, OSV and other vulnerability and threat-intelligence sources, with stdio and Streamable HTTP.
 - :new: [Darknet MCP](https://github.com/badchars/darknet-mcp-server) - Sixty-six tools for breach, ransomware, Tor, malware-feed and blockchain intelligence, including HIBP and IntelX integrations; handles sensitive breach, credential and malware data.
@@ -59,7 +60,6 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :star: [JADX AI MCP](https://github.com/zinja-coder/jadx-ai-mcp) - JADX plugin and MCP server for Android decompilation, code inspection, renaming, comments, cross-references and debugging.
 - :new: [LeakIX MCP](https://github.com/LeakIX/leakix-mcp) - Official server exposing service/leak search, host and domain lookup, subdomains, quick recon, exposure reports and related-target discovery.
 - :new: [Maltego MCP](https://github.com/lidless-labs/maltego-mcp) - Thirteen stdio tools for authoring Maltego .mtgx graphs and running WHOIS, DNS, ASN and crt.sh lookups; it writes Maltego graphs rather than remotely operating Maltego's commercial transform API.
-- :star: [Metasploit MCP Server (msfmcpd)](https://github.com/rapid7/metasploit-framework/blob/master/docs/metasploit-framework.wiki/How-to-use-Metasploit-MCP-Server.md) - Rapid7's native msfmcpd with 16 tools for penetration-testing reconnaissance, module execution and session interaction, read-only by default and dangerous actions gated off.
 - :star: [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) - Community implementation controlling Metasploit Framework penetration-testing and post-exploitation operations through MCP.
 - [Nessus MCP Server](https://github.com/Cyreslab-AI/nessus-mcp-server) - Controls a Nessus instance through its REST API for vulnerability scanning and analysis (community).
 - :zzz: [Nmap MCP Server](https://github.com/imjdl/nmap-mcpserver) - Exposes Nmap network-scanning functionality through MCP (community; last push April 2025).
@@ -82,16 +82,19 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :new: [VirusTotal MCP](https://github.com/VirusTotal/virustotal-mcp) - Retrieves file, URL, domain and IP intelligence and supports explicitly requested submissions through VTAI, locally or through hosted OAuth (created September 2026).
 - [Wayback Machine MCP](https://github.com/Mearman/mcp-wayback-machine) - MCP server and CLI for OSINT and historical web investigation through CDX searches, snapshot retrieval/saving and snapshot comparison.
 - [Wireshark MCP](https://github.com/khuynh22/mcp-wireshark) - Uses Wireshark/tshark for live capture, PCAP parsing, display filters, stream following and JSON export.
-- :star: [ZoomEye MCP](https://github.com/zoomeye-ai/mcp_zoomeye) - Official stdio server for ZoomEye dork-based Internet-asset search, with caching, pagination, Docker and PyPI installation.
+- :shield: [ZoomEye MCP](https://github.com/zoomeye-ai/mcp_zoomeye) - Official stdio server for ZoomEye dork-based Internet-asset search, with caching, pagination, Docker and PyPI installation.
 
 ### Bug bounty platforms
 
 - :zzz: [Bugcrowd MCP](https://github.com/mohdhaji87/Bugcrowd-MCP) - Query and manage bug-bounty programs, vulnerability submissions, reports, assets and users through Bugcrowd APIs (community; last push July 2025).
-- :star: [HackerOne GraphQL MCP Server](https://github.com/Hacker0x01/hackerone-graphql-mcp-server) - Exposes HackerOne's GraphQL API for bug-bounty program and vulnerability-report workflows, with configurable mutation access (official).
+- :shield: [HackerOne GraphQL MCP Server](https://github.com/Hacker0x01/hackerone-graphql-mcp-server) - Exposes HackerOne's GraphQL API for bug-bounty program and vulnerability-report workflows, with configurable mutation access (official).
 - :new: [Intigriti MCP](https://github.com/alpernae/intigriti-mcp) - Access Intigriti Researcher API bug-bounty programs, vulnerability submissions, scopes and researcher workflows (community).
 - :new: [YesWeHack MCP](https://github.com/Miro-sh/yeswehack-mcp) - Read-only access to YesWeHack hunter accounts for bug-bounty program, scope and report review, including credential/TOTP authentication (community, read-only).
 
 ### Offensive security and penetration testing
+
+- :star: [Metasploit MCP Server (msfmcpd)](https://github.com/rapid7/metasploit-framework/blob/master/docs/metasploit-framework.wiki/How-to-use-Metasploit-MCP-Server.md) - Rapid7's native msfmcpd with 16 tools, read-only by default and dangerous actions gated off.
+- [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) - Community implementation controlling Metasploit Framework operations through MCP.
 
 - :new: [AdStrike](https://github.com/capture0x/AdStrike) - MCP-enabled Active Directory attack framework for reconnaissance, enumeration, exploitation and lateral movement, with wrappers for Impacket, NetExec, Certipy, BloodHound, PowerView, Rubeus and related tooling (community).
 - :star: [Atomic Red Team MCP](https://github.com/cyberbuff/atomic-red-team-mcp) - Searches, validates and executes Atomic Red Team tests, with execution gated by configuration (community).
@@ -99,16 +102,16 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :star: [BloodHound MCP](https://github.com/mwnickerson/bloodhound_mcp) - Thirteen composite tools for BloodHound CE/Enterprise attack-path analysis, Cypher, ADCS, OpenGraph and collection uploads (community, not SpecterOps-maintained).
 - :new: [Bolt](https://github.com/CyberStrikeus/bolt) - MCP server/plugin aggregator for reconnaissance, vulnerability scanning and penetration testing, with 33 tools including Amass, Subfinder, crt.sh, Waybackurls, Masscan, RustScan, Gobuster, FFUF, WPScan and Impacket (AGPL).
 - :new: [Caldera standalone MCP](https://github.com/cowboy-samurai/caldera-mcp) - Standalone MCP control surface for the Caldera adversary-emulation platform (community, early).
-- :star: [Cobalt Strike MCP Server](https://github.com/Cobalt-Strike/cobaltstrike-mcp-server) - Official HTTP MCP server for beacon listing, command execution, artifacts, downloads, screenshots and team-server information, with command allow/ask/deny policy (requires commercial Cobalt Strike 4.13+).
+- :shield: [Cobalt Strike MCP Server](https://github.com/Cobalt-Strike/cobaltstrike-mcp-server) - Official HTTP MCP server for beacon listing, command execution, artifacts, downloads, screenshots and team-server information, with command allow/ask/deny policy (requires commercial Cobalt Strike 4.13+).
 - :new: [Cymulate MCP tools](https://github.com/lyonzin/cymulate-mcp-tools) - Broad Cymulate API coverage for BAS, exposure validation, ASM and purple teaming (community).
 - :new: [Empire MCP Plugin](https://github.com/BC-SECURITY/Empire-MCP-Plugin) - Empire 7+ plugin exposing C2 and post-exploitation operations as MCP tools with a shared registry and audit trail (official BC Security / Empire ecosystem).
 - :star: [evil-winrm-py MCP mode](https://github.com/adityatelange/evil-winrm-py/blob/main/docs/usage.md#mcp-server-mode) - Native Streamable HTTP mode exposing WinRM login, command execution, logout and session listing (the Python implementation, not native MCP in the original Ruby Evil-WinRM).
 - :zzz: [Hacking Buddy MCP](https://github.com/ManuelBerrueta/hacking-buddy-mcp) - Small FastMCP proof of concept exposing a few offensive-security tools, including Nmap workflows (dormant since August 2025; unrelated to ipa-lab/hackingBuddyGPT).
 - :star: [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) - FastMCP bridge to its HTTP security-tool API with 150+ tools, including Amass, Subfinder, Masscan, RustScan, Gobuster, Dirsearch, Feroxbuster, FFUF, Nikto, WPScan, NetExec, Responder, Evil-WinRM and ZAP.
-- :star: [Horizon3 NodeZero MCP](https://github.com/horizon3ai/h3-cli/tree/public/mcp) - NodeZero penetration-testing Find/Fix/Verify workflows through local stdio/SSE/HTTP or a managed server (official).
+- :shield: [Horizon3 NodeZero MCP](https://github.com/horizon3ai/h3-cli/tree/public/mcp) - NodeZero penetration-testing Find/Fix/Verify workflows through local stdio/SSE/HTTP or a managed server (official).
 - [MCP ZAP Server](https://github.com/dtkmn/mcp-zap-server) - Streamable HTTP ZAP operator for guided spidering, active/passive scans, API imports, findings and reports, with authentication and target policies (independent of OWASP/ZAP).
 - :new: [mcp-ffuf](https://github.com/samcsta/mcp-ffuf) - Dedicated stdio server for path, parameter and vhost fuzzing, with mandatory host scope and request/rate limits.
-- :star: [MITRE Caldera MCP](https://github.com/mitre/mcp) - Caldera plugin whose internal MCP servers support CTI ingestion, ability/adversary creation and operation execution (official MITRE; plugin architecture, not a simple standalone wrapper).
+- :shield: [MITRE Caldera MCP](https://github.com/mitre/mcp) - Caldera plugin whose internal MCP servers support CTI ingestion, ability/adversary creation and operation execution (official MITRE; plugin architecture, not a simple standalone wrapper).
 - :new: [Mythic MCP](https://github.com/nbaertsch/Mythic-MCP) - Go MCP server exposing 147 Mythic C2 tools over stdio or HTTP, including callbacks, tasks, payloads, listeners and files.
 - :new: [NetExec MCP](https://github.com/mpgn/NetExec-mcp) - Drives all ten NetExec protocols and modules for network and Active Directory penetration testing, with fail-closed NXC_SCOPE, suggest/recon/loot/full modes and audit logging (community project by mpgn, not the Pennyw0rth organization).
 - :zzz: [Nikto MCP](https://github.com/weldpua2008/nikto-mcp) - TypeScript stdio server for Nikto web-security scans, status and cancellation, locally or through Docker (dormant since August 2025).
@@ -154,7 +157,7 @@ MCP servers for security operations, forensics, OSINT, threat intelligence and p
 - :star: [OpenCTI native MCP server](https://docs.opencti.io/latest/deployment/mcp-server/) - Official OpenCTI server for threat-intelligence search and knowledge-graph management through XTM One, available in Community Edition over Streamable HTTP, with read/write operations under the caller's permissions.
 - :new: [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) - Open-source OSINT agent: 21 public-source tools behind natural-language chat, with an MCP server.
 - :new: [osqueryi-mcp](https://github.com/mdfranz/osqueryi-mcp) - Local Go stdio server exposing host osquery tables and queries for endpoint investigation and threat hunting.
-- :star: [Panther MCP](https://github.com/panther-labs/mcp-panther) - Panther-maintained detection engineering, alert triage and data-lake/log investigation.
+- :shield: [Panther MCP](https://github.com/panther-labs/mcp-panther) - Panther-maintained detection engineering, alert triage and data-lake/log investigation.
 - [Security Onion MCP](https://github.com/Security-Onion-Solutions/securityonion-mcp) - Backend MCP server for querying Security Onion security events and retrieving alert-investigation playbooks through its authenticated API (official).
 - [SecurityScorecard MCP](https://github.com/CallMarcus/security-scorecard-mcp) - SecurityScorecard issue triage, asset discovery, email-security checks and score analysis (community, explicitly unaffiliated).
 - :new: [Securonix multi-SIEM MCP](https://github.com/JoaquinHernandez/soc-siem-mcp-) - Cross-SIEM hunting across Securonix, QRadar, Sentinel, Splunk and Wazuh (community, early).
@@ -203,7 +206,7 @@ Servers maintained in the [modelcontextprotocol/servers](https://github.com/mode
 
 ---
 
-## Popular MCP Servers
+## Security Platforms & Vendor MCP Servers
 
 Security-relevant community and vendor MCP servers. General-purpose database, collaboration, commerce, cloud and observability servers are intentionally excluded.
 
@@ -216,29 +219,29 @@ Security-relevant community and vendor MCP servers. General-purpose database, co
 - [Calico Whisker MCP](https://github.com/aadhilam/mcp-whisker-go) - Analyzes Calico Whisker flow logs, blocked flows and associated network policies (community).
 - :new: [Cilium MCP](https://github.com/technoxi/cilium-mcp) - Kubernetes/Cilium/Hubble investigation, network-policy analysis and guarded actions (community, starter/early).
 - :star: [Cloudflare One CASB MCP](https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/cloudflare-one-casb) - Finds SaaS security misconfigurations through Cloudflare One CASB (official).
-- :star: [CrowdSec local MCP](https://github.com/crowdsecurity/crowdsec-local-mcp) - Generates, validates and deploys CrowdSec WAF rules and detection scenarios (official).
+- :shield: [CrowdSec local MCP](https://github.com/crowdsecurity/crowdsec-local-mcp) - Generates, validates and deploys CrowdSec WAF rules and detection scenarios (official).
 - :new: [Falco MCP](https://github.com/ritvikindupuri/FalcoMCP) - Falco/Falcosidekick alert triage, Kubernetes correlation, rule tuning and isolation-policy generation (community, early).
 - :zzz: [Lacework MCP](https://github.com/40docs/mcp_dynamic_lql) - Converts natural language into Lacework LQL and can generate reusable MCP query tools (community; last push August 2025).
 - [Netskope Private Access MCP](https://github.com/johnneerdael/privateaccess-mcp) - Manages Netskope NPA publishers, private apps, brokers, policies, SCIM, upgrades and alerts (community).
 - :new: [Prisma Cloud MCP](https://github.com/Chichis/Prisma-Cloud-MCP) - Read-only alerts, asset search, compliance, vulnerabilities and policies (community, early).
 - :zzz: [Tetragon MCP](https://github.com/calghar/tetragon-mcp) - Exposes Tetragon runtime-security events over stdio or HTTP, including multi-cluster support (community; last push November 2025).
 - :new: [Wiz security tools (Cohere)](https://github.com/cohere-ai/cohere-security-toolkit/tree/main/wiz-security) - Eight Wiz tools for issue triage, toxic combinations, CVEs, posture, compliance and issue write-back (maintained by Cohere Security, not Wiz).
-- :star: [Zscaler MCP Server](https://github.com/zscaler/zscaler-mcp-server) - Manages multiple Zscaler products through MCP, with packaged deployment and client integrations (official).
+- :shield: [Zscaler MCP Server](https://github.com/zscaler/zscaler-mcp-server) - Manages multiple Zscaler products through MCP, with packaged deployment and client integrations (official).
 
 ### Identity & secrets
 
 - :star: [Auth0 MCP](https://github.com/auth0/auth0-mcp-server) - Official Auth0 Management API integration for applications, Actions, logs and tenant administration.
-- :star: [HashiCorp Vault MCP](https://github.com/hashicorp/vault-mcp-server) - Official Vault secrets, mounts and PKI operations; requires a trusted local client and careful secret-exposure controls.
-- :star: [Okta MCP Server](https://github.com/okta/okta-mcp-server) - Okta-maintained self-hosted server for identity administration through Okta APIs.
+- :shield: [HashiCorp Vault MCP](https://github.com/hashicorp/vault-mcp-server) - Official Vault secrets, mounts and PKI operations; requires a trusted local client and careful secret-exposure controls.
+- :shield: [Okta MCP Server](https://github.com/okta/okta-mcp-server) - Okta-maintained self-hosted server for identity administration through Okta APIs.
 
 ### Application security (AppSec)
 
 - :star: [Semgrep MCP](https://github.com/semgrep/semgrep) - Built into the maintained Semgrep CLI via `semgrep mcp`; lets coding agents run security scans directly.
-- :star: [Snyk MCP](https://github.com/snyk/studio-mcp) - Official `snyk mcp` integration for code, dependency, IaC, container, secret, SBOM and package-health scans.
+- :shield: [Snyk MCP](https://github.com/snyk/studio-mcp) - Official `snyk mcp` integration for code, dependency, IaC, container, secret, SBOM and package-health scans.
 - :new: [Snyk SAW MCP](https://github.com/snyk/saw-mcp) - Onboards DAST targets, configures authentication, runs scans and triages findings (official; Probely is now Snyk API & Web).
 - [Socket MCP](https://github.com/SocketDev/socket-mcp) - Official Socket supply-chain security and package-risk analysis (early development, rapidly evolving).
 - :star: [SonarQube MCP](https://github.com/SonarSource/sonarqube-mcp-server) - Official SonarQube code analysis, issue triage and security-hotspot review for AI agents (SONAR Source-Available License v1.0, limited to non-competitive purposes).
-- :star: [Trivy MCP](https://github.com/aquasecurity/trivy-mcp) - Aqua-maintained Trivy plugin for filesystem, repository and container vulnerability/misconfiguration scanning.
+- :shield: [Trivy MCP](https://github.com/aquasecurity/trivy-mcp) - Aqua-maintained Trivy plugin for filesystem, repository and container vulnerability/misconfiguration scanning.
 
 [🔝 Back to top](#awesome-security-mcp)
 
