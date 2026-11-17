@@ -1,0 +1,30 @@
+name: Repository status
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: repository-status
+  cancel-in-progress: false
+
+jobs:
+  report:
+    name: Report repository label drift
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check repository metadata and maintain issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const checkRepositoryStatus = require('./.github/scripts/check-repo-status.js');
+            await checkRepositoryStatus({ github, context, core });
