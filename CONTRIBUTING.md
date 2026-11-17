@@ -17,9 +17,12 @@ Thanks for considering a contribution! This list is curated for accuracy and use
 ## Emoji conventions
 
 - `:star:` — mature **and** more than 100 GitHub stars. Both conditions are required; star count alone does not establish maturity.
+- `:shield:` — official/vendor-owned server (independent of star count).
 - `:new:` — project less than one year old. Remove this label on the project's first anniversary.
 - `:package:` — notable package/toolkit.
 - `:zzz:` — no push in 12 months, **or** deprecated/archived. Dormant reference entries can remain in `README.md`; move archived, deprecated and unsupported entries to `ARCHIVED.md`.
+
+Hosted services and clients are exempt from the star threshold (no public repository to measure).
 
 ## Process
 
