@@ -1,6 +1,6 @@
 <a id="awesome-security-mcp"></a>
 
-<h1 align="center"><a href="https://modelcontextprotocol.io"><img src="assets/banner.png" alt="Awesome Security MCP"></a></h1>
+<h1 align="center"><a href="https://modelcontextprotocol.io"><img src="assets/banner-mcp.png" alt="Awesome Security MCP"></a></h1>
 
 <div align="center">
 
